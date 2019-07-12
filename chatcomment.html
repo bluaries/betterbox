@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>BetterBox</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet">
+<title>Chat Comment</title>
+<style>
+
+body{
+	margin:0px;
+    background: wheat
+	}
+
+input[type=text], select {
+    width: 70%;
+	border-radius: 5px;
+	margin: 7px 0;
+	border: 1px solid #ccc;
+    padding: 14px 18px; 
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #00a7d1;
+}
+
+textarea, select {
+   width: 70%;
+	border-radius: 5px;
+	margin: 7px 0;
+	border: 1px solid #ccc;
+    padding: 14px 18px; 
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+	border: none;
+	color: white;
+	padding: 10px 10px;
+    background-color: #01c9fb;
+    margin: 10px 20px;
+	cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+</style>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand waves-effect" href="index.html" target="_self">
+                <strong class="red-text">BetterBox</strong>
+            </a>
+
+            </div>
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                      <a class="nav-link border border-light rounded waves-effect" href="index.html" 
+                      target="_self">logout</a>
+                </li>
+              </ul>     
+
+        </div>
+    </nav>
+    <!-- Navbar -->
+</head>
+
+<body >
+    <br/><br/><br/><br/><br/><br/>
+<table bgcolor="#f2f2f2" style="padding:50px" align="center">
+<form action="" method="post">
+<tr>
+<td> &nbsp; &nbsp;Name : </td><td><input type="text" name="name"></td>
+</tr>
+<tr>
+<tr>
+<td> &nbsp; &nbsp;Comment : </td><td><textarea name="comment" rows="6" cols="50"></textarea></td>
+</tr>
+<tr>
+<td><input type="submit" name="submit"></td></tr>
+
+</form>
+</table>
+<ul>
+<?php
+if(isset($_POST["submit"]))
+{
+ 
+ //Including dbconfig file.
+include 'dbconfig.php';
+ 
+$name = $_POST["name"];
+$email = $_POST["email"];
+$website = $_POST["website"];
+$comment = $_POST["comment"];
+
+
+mysql_query("INSERT INTO comment_table (name,email,website,comment) VALUES ('$name','$email','$website','$comment')"); 
+
+echo '';
+
+}
+
+ ?>
+</ul>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Initializations -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+    </script>
+</body>
+
+</html>
