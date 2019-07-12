@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Setting</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="bg.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Main Navigation-->
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container">
+
+                <!-- Brand -->
+                <a class="navbar-brand waves-effect">
+                    <strong class="blue-text">BetterBox</strong>
+                </a>
+            <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Left -->
+                <ul class="navbar-nav mr-auto">
+                
+                  <li class="nav-item">
+                    <a class="nav-link waves-effect" href="chatcomment.html"
+                      target="_self">chat</a>
+                  </li>
+                </ul>
+      
+                <!-- Right -->
+                <ul class="navbar-nav nav-flex-icons">
+                  <li class="nav-item">
+                        <a class="nav-link border border-light rounded waves-effect" href="index.html" 
+                        target="_self">logout</a>
+                  </li>
+                </ul>     
+              </div>
+            </div>
+        
+        </nav>
+        <!-- Navbar -->
+
+    </header>
+    <!--Main Navigation-->
+        
+        <div class="container">
+
+            <hr class="my-5">
+
+            <!--Section: Cards-->
+            <section class="text-center">
+
+                <!--Grid row-->
+                <div class="row mb-4 wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4"> <br/> <br/>
+                      <h1 style="color: wheat">Light Tips</h1>
+                      <br/>
+                      <p class="text-left" style="color: white"><object class="box1"></object>&nbsp; pink light: warm feeling</p>
+                      <p class="text-left" style="color: white"><object class="box2"></object>&nbsp; blue light: decrease anxiety</p>
+                      <p class="text-left" style="color: white"><object class="box3"></object>&nbsp; darkblue light: reduce insomnia</p>
+                      <p class="text-left" style="color: white"><object class="box4"></object>&nbsp; green light: peaceful</p>
+                      <p class="text-left" style="color: white"><object class="box5"></object>&nbsp; yellow light: stimulate your brain</p>
+                      <p class="text-left" style="color: white"><object class="box6"></object>&nbsp; red light: reduce appetite</p>
+                      <p class="text-left" style="color: white"><object class="box7"></object>&nbsp; white light: powerful</p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 mb-1">
+
+                        <!--Card-->
+                        <div class="card" >
+                          <br/><br /><br />
+                            <h2 class ='head2'>Light</h2><br/>
+                            <ul>
+                                <button onclick="light(0)" class="btn btn-small">off</button>
+                                <button onclick="light(1)" class="btn btn-small">white</button>
+                                <button onclick="light(3)" class="btn btn-small">pink</button>
+                                <button onclick="light(4)" class="btn btn-small">cyan</button>
+                                <button onclick="light(6)" class="btn btn-small">blue</button>
+                                <button onclick="light(7)" class="btn btn-small">red</button>
+                                <button onclick="light(5)" class="btn btn-small">green</button>
+                                <button onclick="light(2)" class="btn btn-small">yellow</button>
+                            </ul>
+                            <!--Card image-->
+                            <div class="view overlay">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                    <br/>
+                              
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+                        <br/><br /><br />
+                    
+                        <div class="card" >
+                              <ul>
+                                  <br/><br /><br />
+                                  <h2 class ='head2'>WakeUp Time</h2><br/>
+                                    <input class="input-box" id="hourid" placeholder=" hour"></input> : <input class="input-box" id="minuteid" placeholder=" minute"></input><br/><br/><input class="input-box" id="secondid" placeholder=" second"></input> <input style="width: 70px" id="apid" placeholder=" am/pm"></input>
+                                    <br/><br/>
+                                    <button class="btn btn-secondary" style="width: 110px" onclick="converttime()">send</button>
+                              </ul>
+  
+                              <!--Card image-->
+                              <div class="view overlay">
+                                      <div class="mask rgba-white-slight"></div>
+                                  </a>
+                              </div>
+  
+                  
+  
+                          </div>
+
+                    </div>
+                    <!--Grid column-->
+  
+        </div>
+  
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Initializations -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+    </script>
+    <script src="scriptsproject.js"></script>
+</body>
+
+</html>
