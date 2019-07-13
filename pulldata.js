@@ -1,8 +1,11 @@
+let timedate = [];
+
 function createGraph(f) {
-    fetch('https://exceed.superposition.pknn.dev/data/groupTen')
+    fetch('https://exceed.superposition.pknn.dev/data/groupgroupten/timedate')
     .then((res) => res.json())
     .then((data) => {
-        groupData = data;
+        timedate = data;
+        console.log(timedate)
         f()
     });
 }
@@ -15,12 +18,12 @@ function f() {
 
         // The data for our dataset
         data: {
-            labels: [groupData['timedate'][groupData['timedate'].length - 7][1],groupData['timedate'][groupData['timedate'].length - 6][1],groupData['timedate'][groupData['timedate'].length - 5][1],groupData['timedate'][groupData['timedate'].length - 4][1],groupData['timedate'][groupData['timedate'].length -3][1],groupData['timedate'][groupData['timedate'].length - 2][1],groupData['timedate'][groupData['timedate'].length - 1][1]],
+            labels: timedate < 7 ? timedate.map(t => t[1]) : timedate.slice(timedate.length - 7).map(t => t[1]),
             datasets: [{
                 label: 'My sleep hour in 1 week',
                 backgroundColor: 'rgb(255, 99, 132)',
                 borderColor: 'rgb(255, 99, 132)',
-                data: [groupData['timedate'][groupData['timedate'].length - 7][0],groupData['timedate'][groupData['timedate'].length - 6][0],groupData['timedate'][groupData['timedate'].length - 5][0],groupData['timedate'][groupData['timedate'].length - 4][0],groupData['timedate'][groupData['timedate'].length -3][0],groupData['timedate'][groupData['timedate'].length - 2][0],groupData['timedate'][groupData['timedate'].length - 1][0]]
+                data: timedate < 7 ? timedate.map(t => t[0]) : timedate.slice(timedate.length - 7).map(t => t[0]),
             }]
         },
 
