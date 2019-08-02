@@ -69,7 +69,7 @@ function converttime() {
     let s = parseInt(document.getElementById("secondid").value)
     let ap = document.getElementById('apid').value.toUpperCase()
     console.log(groupData)
-    setInterval(() => {
+    
 
         fetch(baseURL + '/data/groupTen')
             .then(res => res.json())
@@ -85,7 +85,7 @@ function converttime() {
         console.log('Look::: ', groupData);
 
 
-        if (groupData["sleeptime"] == 1) {
+        if (groupData["sleeptime"] == 0) {
             let timesleep = new Date().toLocaleTimeString()
             console.log(timesleep)
             let date = new Date().toLocaleString()
@@ -169,5 +169,5 @@ function converttime() {
                 .catch((err) => console.log(err));
 
         }
-    }, 5000)
+    
 }
