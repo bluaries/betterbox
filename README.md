@@ -9,7 +9,7 @@ In response to the spate of tragic events involving student suicide, we the Depa
 
 " Sleep issues may contribute to the development of depression through changes in the function of the neurotransmitter serotonin. Sleep disruptions can affect the body’s stress system, disrupting circadian rhythms and increasing vulnerability for depression. "
 
-So we developed a web application and product called BetterBox. It can help people to contact their doctor and tracking sleep behavior. And also have a BetterBox product can display different colors that can evoke different emotions and help people sleep better. All of this project _finished in 24 hours_
+So we developed a web application and product called BetterBox. It can help people to contact their doctor and track sleep behavior. And also have a BetterBox product can display different colors that can evoke different emotions and help people sleep better. All of this project _finished in 24 hours_
 
 Related blogs:
 
