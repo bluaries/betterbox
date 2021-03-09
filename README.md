@@ -26,6 +26,10 @@ Related blogs:
 |<img width="1604" alt="Home Page" src="https://user-images.githubusercontent.com/47844417/110496081-b8db0080-8127-11eb-8a81-209835c86692.png"> |  <img width="1604" alt="Login" src="https://user-images.githubusercontent.com/47844417/110496189-d4460b80-8127-11eb-9033-d824d53fdd4c.png">|<img width="1604" alt="Light Setting" src="https://user-images.githubusercontent.com/47844417/110496366-fa6bab80-8127-11eb-9452-6f35f252ed35.png">|
 |<img width="1604" alt="Guest Page" src="https://user-images.githubusercontent.com/47844417/110494135-deffa100-8125-11eb-9e24-7efe106c0d73.jpg"> |  <img width="1604" alt="Doctor Page" src="https://user-images.githubusercontent.com/47844417/110494715-706f1300-8126-11eb-9a54-f635d0ee0d6d.jpg" > |<img width="1604" alt="Chat button" src="https://user-images.githubusercontent.com/47844417/110494868-93012c00-8126-11eb-98f0-77aa53c2c35d.jpg">|
 
+## Model
+![Product](https://user-images.githubusercontent.com/47844417/110497639-37846d80-8129-11eb-8886-18e39889789b.jpg)
+![IMG_9006](https://user-images.githubusercontent.com/47844417/110497688-45d28980-8129-11eb-9fea-5115c85f0d6f.jpg)
+
 
 
 
