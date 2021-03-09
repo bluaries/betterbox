@@ -1,4 +1,4 @@
-# BetterBox
+# [BetterBox](https://kidstylex.github.io/betterbox/)
 
 ![nwdn_file_temp_1615303021945](https://user-images.githubusercontent.com/47844417/110493526-46692100-8125-11eb-9726-449979cda09b.JPG)
 
@@ -9,7 +9,7 @@ In response to the spate of tragic events involving student suicide, we the Depa
 
 " Sleep issues may contribute to the development of depression through changes in the function of the neurotransmitter serotonin. Sleep disruptions can affect the body’s stress system, disrupting circadian rhythms and increasing vulnerability for depression. "
 
-So we developed a web application and hardware called BetterBox. It can help people to contact their doctor and tracking sleep behavior. And also have a BetterBox product can display different colors that can evoke different emotions and help people sleep better. All of this project _finished in 24 hours_
+So we developed a web application and product called BetterBox. It can help people to contact their doctor and tracking sleep behavior. And also have a BetterBox product can display different colors that can evoke different emotions and help people sleep better. All of this project _finished in 24 hours_
 
 Related blogs:
 
@@ -29,11 +29,6 @@ Related blogs:
 ## Model
 ![Product](https://user-images.githubusercontent.com/47844417/110497639-37846d80-8129-11eb-8886-18e39889789b.jpg)
 ![IMG_9006](https://user-images.githubusercontent.com/47844417/110497688-45d28980-8129-11eb-9fea-5115c85f0d6f.jpg)
-
-
-
-
-
 
 ## Team Members
 CPE32 and SKE16
