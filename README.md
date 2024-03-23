@@ -35,7 +35,7 @@ CPE32 and SKE16
 
 Members                                     |           Roles            |           Major            |       
 -------------------------------------------|---------------------------|---------------------------|
-[kidstylex](https://github.com/kidstylex)  |  Front-end           |         SKE           |        
+[bluaries](https://github.com/bluaries)  |  Front-end           |         SKE           |        
 [Wijantra](https://github.com/Wijantra)  |  Back-end  |                SKE           |  
 [Namtan Mps](https://www.facebook.com/namtan.mps)     |   Back-end        |   CPE          |        
 [Patschanon](https://www.facebook.com/AomPS.SKR.20TH)  |  Hardware     |  CPE           |  
